@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+:root{
+    /* primary */
+    --BrightRed: hsl(12, 88%, 59%);
+    --DarkBlue: hsl(228, 39%, 23%);
+    /* Neutral */
+    --DarkGrayishBlue: hsl(227, 12%, 61%);
+    --VeryDarkBlue: hsl(233, 12%, 13%);
+    --VeryPaleRed: hsl(13, 100%, 96%);
+    --VaryLightGray: hsl(0, 0%, 98%) ;
+}
+p{
+    font-size: 16px;
+    color: var(--DarkGrayishBlue);
+}
+.navbar, .main1, .main2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    padding: 3rem 0;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--VeryDarkBlue);
+    font-size: 14px;
+    margin: 0 20px;
+}
+.main11, .main12, .main21, .main22{
+    width: 45%;
+    margin: 4rem 0;
+}
+button{
+    font-size: 14px;
+    color: white;
+    background-color: var(--BrightRed);
+    padding: 10px 25px;
+    border-radius: 35px;
+    border: none;
+}
+.p-main{
+color: var(--DarkBlue);
+font-size: 3rem;
+font-weight: 700;
+margin: 0 0 2rem 0;
+}
+.p-sub{
+    width: 80%;
+    margin-bottom: 2rem;
+}
+.main1 button{
+    margin-top: 2rem;
+}
+.main2{
+    align-items: flex-start;
+}
+.main21 .p-main{
+font-size: 2.5rem;
+}
+.main22 .p-main,.main32 .p-main{
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: .7rem;
+}
+.main22 button{
+    margin-right: 1.8rem;
+}
+.track1, .track2, .track3{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.main3 .main31 .p-main{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.main32{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.main32 .p-sub{
+    width: 100%;
+}
+
+.p1,.p2,.p3,.p4{
+    width: 22%;
+    background-color: var(--VaryLightGray);
+    text-align: center;
+    margin: 0%;
+    margin: 0 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.main32 img{
+    height: 80px;
+    width: 80px;
+    top: -45px;
+    right: 65px;
+    margin: auto;
+}
