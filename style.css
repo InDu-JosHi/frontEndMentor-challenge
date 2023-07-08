@@ -6,6 +6,7 @@
     scroll-behavior:smooth;
 }
 :root{
+  
     /* primary */
     --BrightRed: hsl(12, 88%, 59%);
     --DarkBlue: hsl(228, 39%, 23%);
@@ -14,6 +15,7 @@
     --VeryDarkBlue: hsl(233, 12%, 13%);
     --VeryPaleRed: hsl(13, 100%, 96%);
     --VaryLightGray: hsl(0, 0%, 98%) ;
+    --swiper-theme-color:  hsl(12, 88%, 59%);
 }
 .bg-1{
     z-index: 2;
@@ -77,8 +79,8 @@ a{
     margin: 4rem 0;
 }
 .img12{
-    height: 40rem;
-    width: 40rem;
+    height: 35rem;
+    width: 35rem;
 }
 button, .submit, .num p{
     font-size: 16px;
@@ -157,10 +159,11 @@ font-size: 2.5rem;
 
 .p1,.p2,.p3,.p4{
     width: 22%;
+    height: 15rem;
     background-color: var(--VaryLightGray);
     text-align: center;
     margin: 0%;
-    margin: 0 1rem;
+    margin: 3rem 1rem 1rem 0;
     padding: 1rem;
     border-radius: 5px;
 }
@@ -268,8 +271,10 @@ height: 20rem;
 .attribution a{
     color: rgb(10, 86, 154);
 }
-
-
+  
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom,0px);
+}
 
 /*for mobile................*/
 @media only screen and (max-width: 768px) {
@@ -294,6 +299,7 @@ height: 20rem;
     }
 
     .p1,.p2,.p3,.p4{
+        height: 18rem;
         width: 90%;
         margin: 2.5rem auto;
     }
