@@ -33,12 +33,12 @@ html{
     position: absolute;
     top: -5rem;
     right: -12rem;
-    height: 45rem;
-    width: 45rem;
+    height: 40rem;
+    width: 40rem;
 }
 
 p{
-    font-size: 16px;
+    font-size: 15px;
     color: var(--DarkGrayishBlue);
 }
 .navbar, .main1, .main2,.main41, .last{
@@ -52,7 +52,7 @@ p{
     display: none;
 }
 .navbar{
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 ul{
     display: flex;
@@ -68,7 +68,7 @@ a{
     margin: 0px;
 }
 .navbar a{
-    padding: 2rem;
+    padding: 1.5rem;
     font-size: 16px;
 }
 .navbar a:hover{
@@ -79,14 +79,14 @@ a{
     margin: 4rem 0;
 }
 .img12{
-    height: 35rem;
-    width: 35rem;
+    height: 25rem;
+    width: 25rem;
 }
 button, .submit, .num p{
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     background-color: var(--BrightRed);
-    padding: 12px 30px;
+    padding: 12px 25px;
     border-radius: 35px;
     border: none;
     cursor: pointer;
@@ -99,7 +99,7 @@ button:hover,.submit:hover{
 }
 .p-main{
 color: var(--DarkBlue);
-font-size: 3rem;
+font-size: 2.5rem;
 font-weight: 700;
 margin: 0 0 2rem 0;
 }
@@ -242,7 +242,7 @@ height: 20rem;
 }
 .list a{
     color: var(--VaryLightGray);
-    font-size: 16px;
+    font-size: 14px;
 }
 .list a:hover{
     color: var(--BrightRed);
@@ -255,11 +255,14 @@ height: 20rem;
 .footer .icon{
     margin-right: .5rem;
 }
+.footer input, .footer .submit{
+    font-size: 14px;
+}
 .footer .logo{
     margin-bottom: 5rem;
 }
 .footer .copyright{
-    font-size: 16px;
+    font-size: 14px;
 }
 .attribution { 
     font-size: 16px; 
@@ -276,7 +279,7 @@ height: 20rem;
     bottom: var(--swiper-pagination-bottom,0px);
 }
 
-/*for mobile................*/
+/*for tablet................*/
 @media only screen and (max-width: 768px) {
     .navbar, .main1, .main2, .main41, .last{
         display: block;
@@ -299,7 +302,6 @@ height: 20rem;
     }
 
     .p1,.p2,.p3,.p4{
-        height: 18rem;
         width: 90%;
         margin: 2.5rem auto;
     }
