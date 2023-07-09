@@ -10,6 +10,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Exo&family=Nunito+Sans:wght@200;400&family=Quicksand&family=Recursive&family=Titillium+Web&family=Work+Sans&display=swap" rel="stylesheet">
  <!-- Link Swiper's CSS -->
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+ <!-- Animation on scroll's css -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
  <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -36,13 +38,13 @@
      </div>
      <div class="main1">
       <img class="bg-img1" src="./images/bg-tablet-pattern.svg" alt="">
-       <div class="main11">
+       <div class="main11" >
          <p class="p-main"> Bring everyone together to build better products.</p>
         <p class="p-sub">  Manage makes it simple for software teams to plan day-to-day 
          tasks while keeping the larger team goals in view.</p>
    <button>Get Started</button>
        </div>
-       <div class="main12">
+       <div class="main12" >
          <img class="img12" src="./images/illustration-intro.svg" alt="">
        </div>
      </div>
@@ -50,13 +52,13 @@
   
 <div class="main2">
   <img class="bg-img2" src="./images/bg-tablet-pattern.svg" alt="">
-  <div class="main21">
+  <div class="main21" data-aos="fade-up-left">
    <p class="p-main"> What’s different about Manage?</p>
 <p class="p-sub"> Manage provides all the functionality your team needs, without 
   the complexity. Our software is tailor-made for modern digital 
   product teams. </p>
   </div>
-  <div class="main22">
+  <div class="main22" data-aos="fade-up-right">
     <div class="track1">
       <div class="num">
             <p>01</p> 
@@ -100,11 +102,11 @@
 </div>
 
   <div class="main3">
-    <div class="main31"> <p class="p-main">What they’ve said?</p> </div>
+    <div class="main31" > <p class="p-main">What they’ve said?</p> </div>
     <div class="main32">
 
   <!-- Swiper -->
-  <div class="swiper mySwiper">
+  <div class="swiper mySwiper" data-aos="flip-down">
     <div class="swiper-wrapper">
 
       <div class="p1 swiper-slide">
@@ -145,7 +147,7 @@
     <button>Get Started</button>
   </div>
  
-  <div class="main4">
+  <div class="main4" data-aos="flip-up">
     <img class="bg-img41" src="./images/bg-simplify-section-desktop.svg" alt="">
     <div class="main41">
       <div >
@@ -156,7 +158,7 @@
        </div>
     </div>
   </div>
-  <footer class="footer">
+  <footer class="footer" data-aos="flip-up">
     <div class="last">
       <div>
         <img class="logo" src="./images/logo.svg" alt="">
@@ -238,6 +240,12 @@
       
     });
   </script>
+<!-- Animation on scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 <script src="./script.js"></script>
 </body>
 </html>

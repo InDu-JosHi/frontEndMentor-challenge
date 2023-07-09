@@ -68,7 +68,7 @@ a{
     margin: 0px;
 }
 .navbar a{
-    padding: 1.5rem;
+    padding: 1.1rem;
     font-size: 16px;
 }
 .navbar a:hover{
@@ -77,6 +77,10 @@ a{
 .main11, .main12, .main21, .main22{
     width: 45%;
     margin: 4rem 0;
+}
+.main12{
+    display:flex;
+    justify-content: flex-end;
 }
 .img12{
     height: 25rem;
@@ -263,6 +267,7 @@ height: 20rem;
 }
 .footer .copyright{
     font-size: 14px;
+    text-align: start;
 }
 .attribution { 
     font-size: 16px; 
@@ -280,7 +285,7 @@ height: 20rem;
 }
 
 /*for tablet................*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     .navbar, .main1, .main2, .main41, .last{
         display: block;
     }
@@ -290,6 +295,9 @@ height: 20rem;
     .main11, .main12, .main21, .main22{
         width: 95%;
         margin: auto;
+    }
+    .main12{
+        justify-content: center;
     }
     .main31 .p-main,.main11 .p-main,.main21 .p-main,.main31 .p-main, .main41 .p-main{
         font-size: 2rem;
@@ -508,8 +516,14 @@ height: 20rem;
         }
   }
 
-
+/* for mobile */
   @media only screen and (max-width: 500px){
+    .main31 .p-main,.main11 .p-main,.main21 .p-main,.main31 .p-main, .main41 .p-main{
+        font-size: 1.5rem;
+    }
+    .p-sub{
+        font-size: 14px;
+    }
     .num11 .p-main{
         padding: 12px 10px;
         left: 30px;
