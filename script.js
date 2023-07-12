@@ -1,3 +1,4 @@
+// Hamburger
 const hamburger = document.querySelector(".hamburger");
 const closeHamburger = document.querySelector(".close-hamburger");
 const nav = document.querySelector("nav");
@@ -10,7 +11,6 @@ hamburger.addEventListener("click", () => {
   hamburger.style.display = "none";
   closeHamburger.style.display = "block";
   img12.style.display = "none";
-  body.style.backgroundColor = "rgba(0,0,0,.5)";
 });
 closeHamburger.addEventListener("click", () => {
   nav.style.display = "none";
@@ -18,5 +18,31 @@ closeHamburger.addEventListener("click", () => {
   hamburger.style.display = "block";
   closeHamburger.style.display = "none";
   img12.style.display = "block";
-  body.style.backgroundColor = "transparent";
 });
+
+// Initialize Swiper
+
+var swiper = new Swiper(".mySwiper", {
+  centeredSlides: false,
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
+});
+
+// Initialize Animation
+AOS.init();
