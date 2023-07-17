@@ -45,7 +45,9 @@
 html{
     overflow-x: hidden;
 }
-
+body{
+    overflow-x: hidden;
+}
 .hamburger, .close-hamburger{
     display: none;
 }
@@ -292,7 +294,9 @@ font-size: 2.5rem;
     .bgimg2-main{
         background-position-x: -375px;
         background-position-y: 120%;
+        overflow-x: hidden;
     }
+    
     .main11, .main12, .main21, .main22{
         width: 95%;
         margin: auto;
