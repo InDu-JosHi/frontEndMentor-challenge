@@ -21,20 +21,33 @@
     z-index: 2;
     position: relative;
 }
+.bgimg1-main{
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position-x: 125%;
+    background-position-y: -70px;
+}
+.bgimg2-main{
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position-x: -300px;
+    background-position-y: 70%;
+}
+.main4{
+    background-image: url(./images/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-y: 80%;
+}
+
 html{
     overflow-x: hidden;
 }
 
 .hamburger, .close-hamburger{
     display: none;
-}
-.bg-img1{
-    z-index: -2;
-    position: absolute;
-    top: -5rem;
-    right: -12rem;
-    height: 40rem;
-    width: 40rem;
 }
 
 p{
@@ -120,14 +133,7 @@ margin: 0 0 2rem 0;
     z-index: 2;
     position: relative;
 }
-.bg-img2{
-    height: 35rem;
-    width: 35rem;
-    z-index: -2;
-    position: absolute;
-    top: 50%;
-    left: -43%;
-}
+
 .main21 .p-main{
 font-size: 2.5rem;
 }
@@ -191,16 +197,6 @@ font-size: 2.5rem;
     padding: 3rem;
 }
 
-.bg-img41{
-position: absolute;
-z-index: -3;
-height: 20rem;
-width: 85rem;
-right: -10rem;
-bottom: 0rem;
-height: 20rem;
-   
-}
 .main4 .p-main{
     width: 90%;
     font-size: 2.5rem;
@@ -289,7 +285,14 @@ height: 20rem;
     .navbar, .main1, .main2, .main41, .last{
         display: block;
     }
-    
+    .bgimg1-main{
+        background-position-x: 260px;
+        background-position-y: -70px;
+    }
+    .bgimg2-main{
+        background-position-x: -375px;
+        background-position-y: 120%;
+    }
     .main11, .main12, .main21, .main22{
         width: 95%;
         margin: auto;
@@ -463,16 +466,6 @@ height: 20rem;
     .footer a{
         margin: 0;
     }
-    .bg-img2{
-        height: 25rem;
-        width: 25rem;
-        top: -40%;
-        left: 80%;
-    }
-    .bg-img1{
-        height: 35rem;
-        width: 35rem;
-    }
     
     
     .p-main{
@@ -531,10 +524,10 @@ height: 20rem;
     }
     nav{
         width: 100%;
-        height: 65vh;
+        height: 60vh;
     }
     nav li{
-        margin: 2rem 0 .5rem;
+        margin: 2.5rem 0 .5rem;
     }
     .num11 .p-main{
         padding: 12px 10px;
@@ -545,10 +538,6 @@ height: 20rem;
         padding: 12px 15px;
         margin-right: 10rem; 
         left: -5px;
-    }
-    .bg-img1{
-        height: 30rem;
-        width: 30rem;
     }
  .img12{
     height: 20rem;
