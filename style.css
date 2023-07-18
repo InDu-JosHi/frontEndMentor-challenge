@@ -537,11 +537,12 @@ font-size: 2.5rem;
         margin: 2.5rem 0 .5rem;
     }
     .num11 .p-main{
-        padding: 12px;
+        padding: 13px 0;
         padding-left: 2rem;
-        left: 35px;
-        font-size: 15px;
+        left: 20px;
+        font-size: 14px;
         text-align: left;
+        border-radius: 0;
     }
     .numspan{
         padding: 12px 15px;
